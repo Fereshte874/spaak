@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:spaak/ui/list.dart';
-import 'package:spaak/ui/normal.dart';
-
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -32,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: const MyList(),
+      body: const Text("只是一个首页"),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',

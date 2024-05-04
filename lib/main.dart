@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spaak/ui/home/homePage.dart';
-import 'package:spaak/ui/list.dart';
-import 'package:spaak/ui/normal.dart';
+import 'package:spaak/ui/home/tabs.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +29,7 @@ class _MyAppState extends State<MyApp> {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Project Spaak'),
+      home: const Tabs(),
     );
   }
 }
